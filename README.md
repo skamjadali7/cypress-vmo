@@ -38,11 +38,11 @@ cypress assignment for vmo app for layr
             - Test_01.spec.cy.js
             - Test_02.spec.cy.js
             - Test_03.spec.cy.js
-        - fixtures (it consist of locators and test data )
-            - locator.json
-            - testData.json
-        - screenshots (it consists of screen attachment of the local run)
-        - videos (it consists of screen attachment of the local run )** Refer this as part of execution
+    - fixtures (it consist of locators and test data )
+        - locator.json
+        - testData.json
+    - screenshots (it consists of screen attachment of the local run)
+    - videos (it consists of screen attachment of the local run )** Refer this as part of execution
 
 
  ### For more clarification please reach out to me 
