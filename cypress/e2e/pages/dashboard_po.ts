@@ -20,7 +20,7 @@ export class Dashboard {
 
     hypothesisModalEntry(hypName, solution, problem, num1, num2, num3) {
         cy.get(loc.editnamehypothesis).click({force: true});
-        cy.focused({ timeout: 20000 });
+        cy.wait(5000) // 5 sec wait
         cy.get(loc.namehypothesis).type(hypName, { delay: 1000 });
         cy.get(loc.solutionhypothesis).type(solution);
         cy.get(loc.problemhypothesis).type(problem);

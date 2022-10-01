@@ -43,5 +43,5 @@
   "listViewTab" : "[data-qa='hypothesis-list-view']",
   "searchHypothesis" :"[data-qa='poriyuzixu']",
   "listviewitem" : "[data-qa='hypothesis-list-item']",
-  "hypothesisname" : "[data-qa='hypothesis-id']"
+  "hypothesisname" : "[data-qa='ribedoqaga'] h5"
 }
