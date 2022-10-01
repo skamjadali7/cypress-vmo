@@ -39,5 +39,9 @@
   "importancescore":"div :nth-child(3) > .score-box li",
   "easescore":"div :nth-child(4) > .score-box li",
   "createhypotesisbutton" :"[data-qa='btn-submit-hypothesis-creation-form']",
-  "createplushypothesis" : "[data-qa='maxafapavo']"
+  "createplushypothesis" : "[data-qa='maxafapavo']",
+  "listViewTab" : "[data-qa='hypothesis-list-view']",
+  "searchHypothesis" :"[data-qa='poriyuzixu']",
+  "listviewitem" : "[data-qa='hypothesis-list-item']",
+  "hypothesisname" : "[data-qa='hypothesis-id']"
 }

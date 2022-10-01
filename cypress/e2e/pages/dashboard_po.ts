@@ -19,7 +19,7 @@ export class Dashboard {
     }
 
     hypothesisModalEntry(hypName, solution, problem, num1, num2, num3) {
-        cy.get(loc.editnamehypothesis).click();
+        cy.get(loc.editnamehypothesis).click({force: true});
         cy.focused({ timeout: 20000 });
         cy.get(loc.namehypothesis).type(hypName, { delay: 1000 });
         cy.get(loc.solutionhypothesis).type(solution);
@@ -32,9 +32,10 @@ export class Dashboard {
 
     // create hypothesis from progess view
     createHypothesis(hypName, solution, problem, num1, num2, num3) {
-        cy.get(loc.createhypotesisbutton).then($el => {
+        cy.wait(10000) // 10 sec wait
+        cy.get(loc.createplushypothesis,{timeout:20000}).then($el => {
             if ($el.is(':visible')) {
-                cy.get(loc.createhypotesisbutton).click({ force: true });
+                cy.get(loc.createplushypothesis,{timeout:20000}).click();
                 this.hypothesisModalEntry(hypName, solution, problem, num1, num2, num3);
             }
         })
@@ -42,11 +43,28 @@ export class Dashboard {
 
     // create hypothesis for first
     firstcreateHypothesis(hypName, solution, problem, num1, num2, num3) {
-        cy.get(loc.createhypothesis).then($el => {
+        cy.wait(10000) // 10 sec wait
+        cy.get(loc.createhypothesis,{timeout:20000}).then($el => {
             if ($el.is(':visible')) {
-                cy.get(loc.createhypothesis).click({ force: true });
+                cy.get(loc.createhypothesis,{timeout:20000}).click();
                 this.hypothesisModalEntry(hypName, solution, problem, num1, num2, num3);
             }
+        })
+    }
+
+    //List view 
+    listView () {
+        cy.wait(10000) // wait for 10 sec for detachment of element
+        cy.get(loc.listViewTab,{timeout: 20000}).click({force: true});
+    }
+
+    //Search of hypothesis
+    searchHypothesis (hypName) {
+        cy.get(loc.searchHypothesis,{timeout:20000}).clear().type(hypName);
+        cy.get(loc.listviewitem,{timeout:10000}).should('be.visible');
+        cy.get(loc.hypothesisname).should(($text)=>{
+            const name = $text.text();
+            expect(name).to.include(hypName);
         })
     }
 }

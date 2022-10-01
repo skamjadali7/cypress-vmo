@@ -16,7 +16,7 @@ describe('create a new account in vmo application with free trail', () => {
     login.createNewAccount(data.fname,data.lname,data.country,data.phn,data.pwd);
   })
 
-  it('account setup and navigate to dashboard',()=>{
+  xit('account setup and navigate to dashboard',()=>{
     login.setupNewAccount(data.url);
   })
 })

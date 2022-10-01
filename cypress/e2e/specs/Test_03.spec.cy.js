@@ -26,14 +26,16 @@ describe('login dashboard and create hypothessis', () => {
     dash.clickSideSubMenu(data.subSideMenu);
   })
 
-  it('create 1st hypothesis in plan', () => {
+  it('create 3 hypothesis plan', () => {
     dash.firstcreateHypothesis(data.hypName1, data.solution, data.problem, data.num1, data.num2, data.num3);
-  })
-
-  it('create 2nd and 3rd hypothesis', () => {
     for (let i = 0; i < 2; i++) {
       dash.createHypothesis(hyName, data.solution, data.problem, data.num1, data.num2, data.num3);
     }
+  })
+
+  it('list view and search hypothesis', () => {
+    dash.listView();
+    dash.searchHypothesis(data.hypName1);
   })
 
 })
