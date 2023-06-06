@@ -2,7 +2,8 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://app.vwo.com/#',
+    baseUrl: 'https://www.amazon.in/',
+    experimentalSessionAndOrigin: true,
     include: ["**/*.ts"],
     setupNodeEvents(on, config) {
       // implement node event listeners here

@@ -1,17 +1,7 @@
 {
-    "emailID":"sam@test.com",
-    "fname": "sam",
-    "lname" : "billings",
-    "country" : "India (भारत)",
-    "phn" : "9876543210",
-    "pwd":"Amazon@123",
-    "url": "restapi",
-    "sideMenu" : "Plan",
-    "subSideMenu" : "Hypotheses",
-    "hypName1" : "Test 1",
-    "solution":"1",
-    "problem":"1",
-    "num1":"4",
-    "num2":"4",
-    "num3" :"4"
+    "itemName" : "Mobile", 
+    "selectDepartment":"All Categories" ,
+    "range" : "₹10,000 - ₹20,000",
+    "intialRange":10000, 
+    "finalRange": 20000
 }

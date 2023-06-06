@@ -2,7 +2,7 @@
     "compilerOptions": {
       "target": "es5",
       "lib": ["es5", "dom"],
-      "baseUrl": "https://app.vwo.com/#",
+      "baseUrl": "https://www.amazon.in/",
       "types": ["cypress", "node","cypress-wait-until"]
     },
     "include": ["**/*.ts"]

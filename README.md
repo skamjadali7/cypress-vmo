@@ -1,16 +1,15 @@
 # cypress-vmo
-cypress assignment for vmo app for layr
+cypress assignment for amazon mobile search AND rcb.json validation
 
 # Software Version using
-- Node Version - v12.18.3
-- Cypress - Latest version (v10.9.0)
+- Node Version < v12.18.3
+- Cypress - Latest version (v12.13.0)
 
 # Project setup
 - Pre Check ( Please Install git in your local)
 - Clone the project in your local machine/system
 - npm init (for node modules & package.json install)
-- npm install cypress
-- npm i --save-dev cypress-localstorage-commands ( for local session and storage handling )
+- npm install cypress@12.13.0 --save-dev
 
 # How to run the project 
 
@@ -32,15 +31,15 @@ cypress assignment for vmo app for layr
 - cypress
     - e2e
         - pages ( it consist of generic/reusable method/function )
-            - dashboard_po.ts
-            - login_po.ts
+            - amazon_po.ts
+            - rcb_po.ts
         - specs (it consist of spec file / test cases )
-            - Test_01.spec.cy.js
-            - Test_02.spec.cy.js
-            - Test_03.spec.cy.js
-    - fixtures (it consist of locators and test data )
+            - amazon_mobile.spec.cy.js
+            - rcb_test.spec.cy.js
+    - fixtures (it consist of locators , test data, RCB json details )
         - locator.json
         - testData.json
+        - rcb.json
     - screenshots (it consists of screen attachment of the local run)
     - videos (it consists of screen attachment of the local run )** Refer this as part of execution
 

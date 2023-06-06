@@ -1,0 +1,142 @@
+{
+  "name": "Royal Challengers Bangalore",
+  "location": "Bangalore",
+  "player": [
+    {
+      "name": "Faf Du Plessis",
+      "country": "South Africa",
+      "role": "Batsman",
+       "playing" : "XI",
+	"price": "8cr"
+     
+    },
+    {
+      "name": "Virat Kohli",
+      "country": "India",
+      "role": "Batsman",
+      "playing" : "XI",
+	"price": "6cr"	
+    
+    },
+    {
+      "name": "Glenn Maxwell",
+      "country": "Australia",
+      "role": "AllRounder",
+	"playing" : "XI",
+	"price": "3cr"	
+     
+    },
+    {
+      "name": "Mohammad Siraj",
+      "country": "India",
+      "role": "Bowler",
+	"playing" : "Sub",	
+      "price": "8cr"
+    },
+    {
+      "name": "Akash Deep",
+      "country": "India",
+      "role": "Bowler",
+	"playing" : "XI",
+      "price": "2cr"
+    },
+    {
+      "name": "Wanindu Hasaranga",
+      "country": "Srilanka",
+      "role": "AllRounder",
+	"playing" : "XI",
+      "price": "5cr"
+    },
+    {
+      "name": "Dinesh Karthik",
+      "country": "India",
+      "role": "Wicketkeeper",
+	"playing" : "XI",
+      "price": "7cr"
+    },
+    {
+      "name": "Shahbaz Ahmed",
+      "country": "India",
+      "role": "Bowler",
+	"playing" : "XI",
+      "price": "4.9cr"
+    },
+    {
+      "name": "Rajat Patidar",
+      "country": "India",
+      "role": "Batsman",
+	"playing" : "XI",
+      "price": "2.6cr"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "country": "Australia",
+      "role": "Bowler",
+	"playing" : "XI",
+      "price": "6.8cr"
+    },
+    {
+      "name": "Avinash Singh",
+      "country": "India",
+      "role": "Bowler",
+	"playing" : "XI",
+      "price": "4cr"
+    },
+
+{
+      "name": "Siddharth Kaul",
+      "country": "India",
+      "role": "Bowler",
+	"playing" : "XI",
+      "price": "4cr"
+    },
+
+{
+      "name": "Will Jacks",
+      "country": "India",
+      "role": "Batsman",
+	"playing" : "Extra",
+      "price": "4cr"
+    },
+
+{
+      "name": "Anuj Rawat",
+      "country": "India",
+      "role": "Batsman",
+	"playing" : "Sub",
+      "price": "4cr"
+    },
+
+{
+      "name": "Karn Sharma",
+      "country": "India",
+      "role": "AllRounder",
+	"playing" : "Sub",
+      "price": "4cr"
+    },
+
+{
+      "name": "Sonu Yadav",
+      "country": "India",
+      "role": "AllRounder",
+	"playing" : "Extra",
+      "price": "4cr"
+    },
+
+{
+      "name": "Rajan Kumar",
+      "country": "India",
+      "role": "Bowler",
+	"playing" : "Sub",
+      "price": "4cr"
+    },
+
+{
+      "name": "Suyansh S",
+      "country": "India",
+      "role": "Batsman",
+	"playing" : "Extra",
+      "price": "4cr"
+    }
+  ]
+}
