@@ -34,13 +34,13 @@ export class apiCall {
     }
     SubstitutesPlayers () {
         for (let i=0;i<players.length;i++){
-            if (players[i].playing != "XI" && 'Extra') {
+            if (players[i].playing !== "XI" && players[i].playing == "Sub") {
                 substitutes.push(players[i].name)
                 console.log(substitutes)
             }
         }
         console.log(substitutes);
-        expect(substitutes.length).to.eq(4);
+        expect(substitutes.length).to.eq(15);
     }
 
     finalTeamPlayerWithSubstitutes () {
@@ -52,6 +52,7 @@ export class apiCall {
         }
         console.log(playingXI);
         expect(playingXI.length).to.be.eq(11);
+        this.SubstitutesPlayers();
     }
 
 }

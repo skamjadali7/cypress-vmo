@@ -12,6 +12,5 @@ describe("RCB E-SALA CUP NAMDE",()=>{
     })
     it ('playing XI and substitutes in team',()=>{
         api.finalTeamPlayerWithSubstitutes();
-        api.SubstitutesPlayers();
     })
 })
